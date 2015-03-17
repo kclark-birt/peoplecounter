@@ -58,9 +58,9 @@ while(1):
       cmd1 = "raspistill -w 400 -h 300 -vf -e png -q 100 -o " + photocache + str(peoplecount) + ".png"
       cmd2 = "python " + projectroot + "detect.py " + file 
       client.publish("counter", str(payload));
-      pid1 = subprocess.call(cmd1, shell=True)
-      os.system("python " + projectroot + "detect.py " + file)
-      subprocess.Popen("python " + projectroot + "detect.py " + file, shell=True)
+      #pid1 = subprocess.call(cmd1, shell=True)
+      #os.system("python " + projectroot + "detect.py " + file)
+      #subprocess.Popen("python " + projectroot + "detect.py " + file, shell=True)
       presence = 0
       time.sleep(1.5)
    time.sleep(1)
