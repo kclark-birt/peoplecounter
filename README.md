@@ -13,7 +13,7 @@ This project relies on the MQTT protocol to transport both the count with a time
 ```
 
 #### Photo analysis ####
-As of right now, I'm using the [SkyBiometry Face Detection and Recognition](https://www.mashape.com/skybiometry-1/skybiometry-face-detection-and-recognition)SkyBiometry Face Detection and Recognition) API.  Please note that I'm still in discovery on which API I want to use here.  For the time being this is a sample JSON result that will be published to MQTT after each photo.  This sample JSON result was taken from the [Mashape](https://www.mashape.com/skybiometry-1/skybiometry-face-detection-and-recognition) API page.  They have some really cool stuff there, if you haven't visited, then make sure to check them out. 
+As of right now, I'm using the [SkyBiometry Face Detection and Recognition](https://www.mashape.com/skybiometry-1/skybiometry-face-detection-and-recognition) API.  Please note that I'm still in discovery on which API I want to use here.  For the time being this is a sample JSON result that will be published to MQTT after each photo.  This sample JSON result was taken from the [Mashape](https://www.mashape.com/skybiometry-1/skybiometry-face-detection-and-recognition) API page.  They have some really cool stuff there, if you haven't visited, then make sure to check them out. 
 
 ```
 {
