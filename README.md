@@ -90,6 +90,12 @@ photos": [
 
 ``` 
 
+# Data persistence
+This has yet to be implemented.  The working idea is that I will have an MQTT Client on my server.  As new JSON strings are published they will then be stored in Cassandra for persistence.  This is important since the point of this project is to show IoT data trends with foot traffic in a particular area.
+
+# Data Visualization
+The data visualization part will be self contained in a BIRT iHub 3.1 application.
+
 # Raspberry Pi people counter backend
 ![alt tag](peoplecounter_backend.png)
 
